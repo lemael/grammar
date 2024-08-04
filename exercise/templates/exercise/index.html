@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeu de Grammaire</title>
+    {% load static %}
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'exercise/css/styles.css' %}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'exercise/css/bootstrap.css' %}"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center">
+        <h1 class="mt-5 mb-4">Verbs</h1>
+      </div>
+      <p>
+        Use an action verb from the box to complete each sentence appropriately
+        :
+      </p>
+      <div>
+        <div class="draggable btn btn-light" draggable="true">washed</div>
+        <div class="draggable btn btn-light" draggable="true">played</div>
+        <div class="draggable btn btn-light" draggable="true">climbed</div>
+        <div class="draggable btn btn-light" draggable="true">hiked</div>
+        <div class="draggable btn btn-light" draggable="true">dove</div>
+        <div class="draggable btn btn-light" draggable="true">slept</div>
+        <div class="draggable btn btn-light" draggable="true">examined</div>
+        <div class="draggable btn btn-light" draggable="true">sang</div>
+        <div class="draggable btn btn-light" draggable="true">read</div>
+        <div class="draggable btn btn-light" draggable="true">solved</div>
+        <div class="draggable btn btn-light" draggable="true">found</div>
+        <div class="draggable btn btn-light" draggable="true">listened</div>
+      </div>
+      <div id="texte" class="mt-5">
+        <ol>
+          <li>
+            Isabella <span class="dropzone" data-blank="activité"></span> the
+            song beautifully.
+          </li>
+          <li>
+            We <span class="dropzone" data-blank="activité"></span> the mystery
+            of the missing cookie!
+          </li>
+          <li>
+            Mike <span class="dropzone" data-blank="activité"></span> the trail
+            from the beginning to read.
+          </li>
+          <li>
+            Marcus was very tired after he
+            <span class="dropzone" data-blank="activité"></span> to the peak of
+            the mountain.
+          </li>
+          <li>
+            The doctor <span class="dropzone" data-blank="activité"></span> his
+            patient quickly.
+          </li>
+          <li>
+            The children <span class="dropzone" data-blank="activité"></span> at
+            the playground.
+          </li>
+          <li>
+            Mom <span class="dropzone" data-blank="activité"></span> my football
+            uniform last night.
+          </li>
+          <li>
+            The girls <span class="dropzone" data-blank="activité"></span> to
+            the concert intently.
+          </li>
+          <li>
+            I <span class="dropzone" data-blank="activité"></span> that book
+            last week!
+          </li>
+          <li>
+            The dag
+            <span class="dropzone" data-blank="activité"></span> peacefully
+            through our ruckus.
+          </li>
+        </ol>
+      </div>
+
+      <script src="{% static 'exercise/js/scripts.js' %}"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    </div>
+  </body>
+</html>
